@@ -1,0 +1,117 @@
+* {box-sizing: border-box;}
+@media only screen and (max-width: 575px){
+    .baner-text{
+        font-size:8vw !important;
+    }
+    .nav-item>a{
+        font-size: 0.5em;
+    }
+    .parallax{
+        height: 150px !important;
+    }
+}
+@media only screen and (max-width:1000px){
+    .baner-text{
+        font-size: 9vw !important;
+    }
+}
+html {
+    scroll-behavior: smooth;
+}
+.navbar{
+    background-color:#1a2231;
+}
+.nav-item>a{
+    color:white;
+    font-size: 1.2em;
+    font-family: 'Anton', sans-serif;
+}
+.nav-item>a:hover{
+    color:#ffa500;
+}
+.active{
+    border-bottom: 2px solid white;
+}
+.parent-relative{
+    position: relative;
+}
+.baner-text{
+    position: absolute;
+    bottom:40%;
+    right:5%;
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;
+    font-size: 8em;
+    font-family: "Sacramento", cursive;
+    text-align: center;
+    animation: blink 4s infinite;
+}
+
+.parallax{
+    background-image: url('images/banner-retro-furniture.jpg');
+    height:600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.wide-bg{
+    background-image: url('images/wood-background.jpg');
+    background-size: cover;
+    padding: 5%;
+}
+.summary{
+    background-color:white;
+    box-shadow: 5px 10px 8px #000000;
+    padding:2%;
+}
+h1{
+    font-family: 'Pathway Gothic One', sans-serif;
+    text-align: center;
+    color:black;
+}
+p{
+    font-family: 'Rajdhani',sans-serif;
+    font-weight: bold;
+}
+.white-heading{
+    color:white !important;
+}
+.featured-buttons-bg{
+    background-color: #1a2231;
+    padding:6%;
+    background-size: cover;
+}
+.quick-access-box{
+    padding:5%;
+    background-image: url('images/paint-dust-orange-blue.jpg');
+    box-shadow: 5px 10px 8px #000000;
+    transition:1s;
+    background-size: cover;
+}
+.quick-access-box>h1{
+    font-family: 'Saira Extra Condensed', sans-serif !important;
+    transition: 1s;
+    color: white !important;
+    text-shadow: 2px 2px #000000;;
+}
+.quick-access-box:hover{
+    cursor:pointer;
+}
+.quick-access-box:hover>h1{
+    transform: scale(1.2);
+}
+.section-over-banner{
+    background-color: rgba(135, 212, 243, 0.5);
+    position: absolute;
+    bottom:14%;
+    left:5%;
+    padding: 2%;
+}
+.text-over-banner{
+    font-size: 3em;
+    font-family: 'Rajdhani';
+    text-shadow: 2px 2px #000000;
+    color:white;
+    font-family: 'Saira Extra Condensed', sans-serif !important;
+}
